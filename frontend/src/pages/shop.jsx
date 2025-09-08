@@ -4,7 +4,10 @@ import axios from 'axios';
 import bg from '../images/shops.jpg';
 import { Container } from 'react-bootstrap';
 import AddToCartModal from '../pages/cartmodal';
-import orange from '../images/ntrl2.jpg'
+import orange from '../images/ntrl2.jpg';
+import sandal from '../images/sandal2.jpg'
+import papaya from '../images/papaya2.jpg'
+import tea from '../images/tea2.webp'
 
 const categories = [
   {
@@ -15,17 +18,17 @@ const categories = [
   {
     label: 'Herbal Soaps',
     path: '/shop/herbal',
-    image: ''
+    image: tea
   },
   {
     label: 'Plant-Based Soaps',
     path: '/shop/plant',
-    image: ''
+    image: sandal
   },
   {
     label: 'Handmade Soaps',
     path: '/shop/handmade',
-    image: ''
+    image: papaya
   }
 ];
 
